@@ -1,5 +1,6 @@
 package com.example.andriod.bowlinggamequizzes;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         G9( view );
         CheckBoxes( view );
         displayScore( Score );
-        EditText name = (EditText) findViewById( R.id.name_field );
+        EditText name = findViewById( R.id.name_field );
         Toast toast = Toast.makeText( getApplicationContext(), "Welcome " + name.getText() + ",Your Score Is " + Score, Toast.LENGTH_LONG );
         toast.show();
         Score = 0;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         checkbox2.setChecked( false );
         checkbox3.setChecked( false );
         checkbox4.setChecked( false );
-        EditText name = (EditText) findViewById( R.id.name_field );
+        EditText name = findViewById( R.id.name_field );
         name.setText( "" );
 
         Score = 0;
@@ -65,14 +66,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @SuppressLint("SetTextI18n")
     private void displayScore(int score) {
-        TextView Score = (TextView) findViewById( R.id.ScoreText );
+        TextView Score = findViewById( R.id.ScoreText );
         Score.setText( "Your Score Is " + score );
     }
 
     public void G1(View v) {
-        RadioGroup1 = (RadioGroup) findViewById( R.id.Group1 );
-        RadioButton RGroup1 = (RadioButton) RadioGroup1.findViewById( RadioGroup1.getCheckedRadioButtonId() );
+        RadioGroup1 = findViewById( R.id.Group1 );
+        RadioButton RGroup1 = RadioGroup1.findViewById( RadioGroup1.getCheckedRadioButtonId() );
         if (RGroup1 == findViewById( R.id.G1R3 )) {
             Score = Score + 1;
         }
@@ -80,74 +82,74 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void G2(View v) {
-        RadioGroup2 = (RadioGroup) findViewById( R.id.Group2 );
-        RadioButton RGroup2 = (RadioButton) RadioGroup2.findViewById( RadioGroup2.getCheckedRadioButtonId() );
+        RadioGroup2 = findViewById( R.id.Group2 );
+        RadioButton RGroup2 = RadioGroup2.findViewById( RadioGroup2.getCheckedRadioButtonId() );
         if (RGroup2 == findViewById( R.id.G2R2 )) {
             Score = Score + 1;
         }
     }
 
     public void G3(View v) {
-        RadioGroup3 = (RadioGroup) findViewById( R.id.Group3 );
-        RadioButton RGroup3 = (RadioButton) RadioGroup3.findViewById( RadioGroup3.getCheckedRadioButtonId() );
+        RadioGroup3 = findViewById( R.id.Group3 );
+        RadioButton RGroup3 = RadioGroup3.findViewById( RadioGroup3.getCheckedRadioButtonId() );
         if (RGroup3 == findViewById( R.id.G3R1 )) {
             Score = Score + 1;
         }
     }
 
     public void G4(View v) {
-        RadioGroup4 = (RadioGroup) findViewById( R.id.Group4 );
-        RadioButton RGroup4 = (RadioButton) RadioGroup4.findViewById( RadioGroup4.getCheckedRadioButtonId() );
+        RadioGroup4 = findViewById( R.id.Group4 );
+        RadioButton RGroup4 = RadioGroup4.findViewById( RadioGroup4.getCheckedRadioButtonId() );
         if (RGroup4 == findViewById( R.id.G4R2 )) {
             Score = Score + 1;
         }
     }
 
     public void G5(View v) {
-        RadioGroup5 = (RadioGroup) findViewById( R.id.Group5 );
-        RadioButton RGroup5 = (RadioButton) RadioGroup5.findViewById( RadioGroup5.getCheckedRadioButtonId() );
+        RadioGroup5 = findViewById( R.id.Group5 );
+        RadioButton RGroup5 = RadioGroup5.findViewById( RadioGroup5.getCheckedRadioButtonId() );
         if (RGroup5 == findViewById( R.id.G5R2 )) {
             Score = Score + 1;
         }
     }
 
     public void G6(View v) {
-        RadioGroup6 = (RadioGroup) findViewById( R.id.Group6 );
-        RadioButton RGroup6 = (RadioButton) RadioGroup6.findViewById( RadioGroup6.getCheckedRadioButtonId() );
+        RadioGroup6 = findViewById( R.id.Group6 );
+        RadioButton RGroup6 = RadioGroup6.findViewById( RadioGroup6.getCheckedRadioButtonId() );
         if (RGroup6 == findViewById( R.id.G6R1 )) {
             Score = Score + 1;
         }
     }
 
     public void G7(View v) {
-        RadioGroup7 = (RadioGroup) findViewById( R.id.Group7 );
-        RadioButton RGroup7 = (RadioButton) RadioGroup7.findViewById( RadioGroup7.getCheckedRadioButtonId() );
+        RadioGroup7 = findViewById( R.id.Group7 );
+        RadioButton RGroup7 = RadioGroup7.findViewById( RadioGroup7.getCheckedRadioButtonId() );
         if (RGroup7 == findViewById( R.id.G7R1 )) {
             Score = Score + 1;
         }
     }
 
     public void G8(View v) {
-        RadioGroup8 = (RadioGroup) findViewById( R.id.Group8 );
-        RadioButton RGroup8 = (RadioButton) RadioGroup8.findViewById( RadioGroup8.getCheckedRadioButtonId() );
+        RadioGroup8 = findViewById( R.id.Group8 );
+        RadioButton RGroup8 = RadioGroup8.findViewById( RadioGroup8.getCheckedRadioButtonId() );
         if (RGroup8 == findViewById( R.id.G8R2 )) {
             Score = Score + 1;
         }
     }
 
     public void G9(View v) {
-        RadioGroup9 = (RadioGroup) findViewById( R.id.Group9 );
-        RadioButton RGroup9 = (RadioButton) RadioGroup9.findViewById( RadioGroup9.getCheckedRadioButtonId() );
+        RadioGroup9 = findViewById( R.id.Group9 );
+        RadioButton RGroup9 = RadioGroup9.findViewById( RadioGroup9.getCheckedRadioButtonId() );
         if (RGroup9 == findViewById( R.id.G9R3 )) {
             Score = Score + 1;
         }
     }
 
     public void CheckBoxes(View v) {
-        checkbox1 = (CheckBox) findViewById( R.id.G10R1 );
-        checkbox2 = (CheckBox) findViewById( R.id.G10R2 );
-        checkbox3 = (CheckBox) findViewById( R.id.G10R3 );
-        checkbox4 = (CheckBox) findViewById( R.id.G10R4 );
+        checkbox1 = findViewById( R.id.G10R1 );
+        checkbox2 = findViewById( R.id.G10R2 );
+        checkbox3 = findViewById( R.id.G10R3 );
+        checkbox4 = findViewById( R.id.G10R4 );
         if (checkbox2.isChecked() && checkbox4.isChecked() && !checkbox1.isChecked() && !checkbox3.isChecked()) {
             Score = Score + 1;
         }
