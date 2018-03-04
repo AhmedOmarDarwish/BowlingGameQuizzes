@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin" />
+    <dimen name="activity_horizontal_margin" />
+    <dimen name="Q">16sp</dimen>
+    <dimen name="QM">5dp</dimen>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bowling Game Quizzes</string>
+    <string name="Q1">Q1 : How many pins are set up at the beginning of each frame?</string>
+    <string name="Q2">Q2 : How many bowlers took part in the event?</string>
+    <string name="Q3">Q3 : In ten-pin bowling, what pin is commonly referred to as the kingpin?</string>
+    <string name="Q4">Q4 : How many boards are there across on one lane of a bowling alley?</string>
+    <string name="Q5">Q5 : How many pins do you have to knock down to bowl a 300 game?</string>
+    <string name="Q6">Q6 : What is the score of a perfect game in bowling?</string>
+    <string name="Q7">Q7 : 10 01 10 01 10 01 10 01 10 010 ?</string>
+    <string name="Q8">Q8 : he pins are set up in a triangle, and by USBC meet the specific requirements of a bowling pin. What is the required height of a bowling pin?</string>
+    <string name="Q9">Q9 :  What is the maximum amount of throws one can have in a single frame in five-pin bowling?</string>
+    <string name="Q10">Q10 : How many finger holes are in each candlepin bowling ball?</string>
+    <string name="score">You Score Is</string>
+</resources>

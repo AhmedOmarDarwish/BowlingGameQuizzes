@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Your Name"
+            android:inputType="textCapWords"
+            android:textColor="@color/Q" />
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q1" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/q1" />
+
+        <RadioGroup
+            android:id="@+id/Group1"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G1R1"
+                style="@style/RB"
+                android:text="8" />
+
+            <RadioButton
+                android:id="@+id/G1R2"
+                style="@style/RB"
+                android:text="6" />
+
+            <RadioButton
+                android:id="@+id/G1R3"
+                style="@style/RB"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/G1R4"
+                style="@style/RB"
+                android:text="12" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q2" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/q2" />
+
+
+        <RadioGroup
+            android:id="@+id/Group2"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G2R1"
+                style="@style/RB"
+                android:text="8" />
+
+            <RadioButton
+                android:id="@+id/G2R2"
+                style="@style/RB"
+                android:text="6" />
+
+            <RadioButton
+                android:id="@+id/G2R3"
+                style="@style/RB"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/G2R4"
+                style="@style/RB"
+                android:text="12" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q3" />
+
+        <RadioGroup
+            android:id="@+id/Group3"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G3R1"
+                style="@style/RB"
+                android:text="5" />
+
+            <RadioButton
+                style="@style/RB"
+                android:text="6" />
+
+            <RadioButton
+                android:id="@+id/G3R3"
+                style="@style/RB"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/G3R4"
+                style="@style/RB"
+                android:text="12" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q4" />
+
+        <RadioGroup
+            android:id="@+id/Group4"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G4R1"
+                style="@style/RB"
+                android:text="40" />
+
+            <RadioButton
+                android:id="@+id/G4R2"
+                style="@style/RB"
+                android:text="39" />
+
+            <RadioButton
+                android:id="@+id/G4R3"
+                style="@style/RB"
+                android:text="44" />
+
+            <RadioButton
+                android:id="@+id/G4R4"
+                style="@style/RB"
+                android:text="37" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q5" />
+
+        <RadioGroup
+            android:id="@+id/Group5"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G5R1"
+                style="@style/RB"
+                android:text="130" />
+
+            <RadioButton
+                android:id="@+id/G5R2"
+                style="@style/RB"
+                android:text="120" />
+
+            <RadioButton
+                android:id="@+id/G5R3"
+                style="@style/RB"
+                android:text="100" />
+
+            <RadioButton
+                android:id="@+id/G5R4"
+                style="@style/RB"
+                android:text="110" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q6" />
+
+        <RadioGroup
+            android:id="@+id/Group6"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G6R1"
+                style="@style/RB"
+                android:text="300" />
+
+            <RadioButton
+                android:id="@+id/G6R2"
+                style="@style/RB"
+                android:text="400" />
+
+            <RadioButton
+                android:id="@+id/G6R3"
+                style="@style/RB"
+                android:text="350" />
+
+            <RadioButton
+                android:id="@+id/G6R4"
+                style="@style/RB"
+                android:text="3200" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q7" />
+
+        <RadioGroup
+            android:id="@+id/Group7"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G7R1"
+                style="@style/RB"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/G7R2"
+                style="@style/RB"
+                android:text="20" />
+
+            <RadioButton
+                android:id="@+id/G7R3"
+                style="@style/RB"
+                android:text="30" />
+
+            <RadioButton
+                android:id="@+id/G7R4"
+                style="@style/RB"
+                android:text="60" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q8" />
+
+        <RadioGroup
+            android:id="@+id/Group8"
+            style="@style/RGv">
+
+            <RadioButton
+                android:id="@+id/G8R1"
+                style="@style/RB"
+                android:text="17 inches " />
+
+            <RadioButton
+                android:id="@+id/G8R2"
+                style="@style/RB"
+                android:text="15 inches " />
+
+            <RadioButton
+                android:id="@+id/G8R3"
+                style="@style/RB"
+                android:text="16 inches " />
+
+            <RadioButton
+                android:id="@+id/G8R4"
+                style="@style/RB"
+                android:text="19 inches " />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q9" />
+
+        <RadioGroup
+            android:id="@+id/Group9"
+            style="@style/RG">
+
+            <RadioButton
+                android:id="@+id/G9R1"
+                style="@style/RB"
+                android:text="6" />
+
+            <RadioButton
+                android:id="@+id/G9R2"
+                style="@style/RB"
+                android:layout_width="wrap_content"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/G9R3"
+                style="@style/RB"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/G9R4"
+                style="@style/RB"
+                android:text="2" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q10" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/G10R1"
+                style="@style/CB"
+                android:text="1" />
+
+            <CheckBox
+                android:id="@+id/G10R2"
+                style="@style/CB"
+                android:text="2-2" />
+
+            <CheckBox
+                android:id="@+id/G10R3"
+                style="@style/CB"
+                android:text="2" />
+
+            <CheckBox
+                android:id="@+id/G10R4"
+                style="@style/CB"
+                android:text="1-1" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ScoreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/score"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/learnButton"
+                style="@style/Button"
+                android:onClick="Clear"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/resetButton"
+                style="@style/Button"
+                android:layout_marginLeft="15dp"
+                android:onClick="Submit"
+                android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

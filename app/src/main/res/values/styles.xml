@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1b1b1b</item>
+        <item name="colorPrimaryDark">#424242</item>
+        <item name="colorAccent">#6e6b6b</item>
+    </style>
+
+    <style name="Q">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name=" android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/Q</item>
+        <item name="android:textSize">@dimen/Q</item>
+        <item name="android:layout_margin">@dimen/QM</item>
+    </style>
+
+    <style name="RG">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RGv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="RB">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="CB">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme"></style>
+
+</resources>
